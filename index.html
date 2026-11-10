@@ -1,15 +1,15 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[4/5] Five CSS Rules
+[2/3] Three Distinct CSS font-family Declarations
+[5/5] Five CSS Rules
 [1/1] An Unordered **or** Ordered List (<ul> or <ol>)
-[1/3] Three Images
+[2/3] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Fill Text with Image Background 
 [ no ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
-[ no ] Feature 4 - Use Google Font or Uploaded Font
+[ yes ] Feature 4 - Use Google Font or Uploaded Font
 [ no ] Feature 5 - Change the Cursor
 -->
 
@@ -19,13 +19,17 @@ Select ONE Additional Feature to Add
 <head>
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <style>
 
   h1{
     color:#357ec7
   }
 
-  h3{
+  h2{
     color:#2b6299
   }
 
@@ -38,45 +42,74 @@ Select ONE Additional Feature to Add
     border: 5px solid #357ec7
   }
 
+  .subhead{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .flight180{
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #iris{
+    color:rgb(14, 82, 138);
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal
+  }
+
   </style>
 </head>
 <body>
 
   <h1>My Unofficial Guide to <em>Final Destination</em> Movies</h1>
   
-  <h3>What is Final Destination? </h3>
+  <h2 class="subhead"> <em>WARNING!! THIS PAGE CONTAINS SPOILERS FOR ALL FINAL DESTINATION MOVIES!!</em></h2>
+
+  <h2 class="subhead">What is Final Destination? </h2>
   <hr>
-  <p>Final Destination is a movie franchise (currently 6 movies) answering a hypothetical question of what happens when you try to escape death.</p><br>
-  <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrHRaLQsqQtr7sXL5lOyLz40sMj2b_LXf4fVJycUGZg&s=10" width="400" alt="Alex Browning from Final Destination (2000) after his premonition of the flight 180 explosion"></center>
-  <p>The first movie came out in 2000 and defined it as a supernatural slasher series. The antagonist is the external force of death itself which hunts down people who cheat the already established. Those who escape death in fatal accidents are now in a race against death to find the signals and avoid the peril before it comes back to bite them in the butt.</p>
+  <p class="flight180">Final Destination is a movie franchise (currently 6 movies) answering a hypothetical question of what happens when you try to escape death.</p><br>
+  <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrHRaLQsqQtr7sXL5lOyLz40sMj2b_LXf4fVJycUGZg&s=10" width="400" alt="Alex Browning from Final Destination (2000) after his premonition of the flight 180 explosion, very much in despair and sweaty and terrified."></center>
+  <p class="flight180">The first movie came out in 2000 and defined it as a supernatural slasher series. The antagonist is the external force of death itself which hunts down people who cheat the already established. Those who escape death in fatal accidents are now in a race against death to find the signals and avoid the peril before it comes back to bite them in the butt.</p>
   <br>
 
-  <h3>Tell me about this franchise!!</h3>
+  <h2 class="subhead">Tell me about this franchise!!</h2>
   <hr>
-  <p>Final Destination (2000):
+  <p class="flight180">Final Destination (2000):
     <ul>
-      <li>Alex Browning escapes plane 180 to Paris, France because he saw a vision of the plane exploding and his whole class dying. He screams and cries and leaves the plane w/ a lot of his classmates. The plane does explode and kills the passengers, so the police think Alex bombed the plane.</li>
-      <li>Alex is running from the popo and everyone around him is dying. People think that Alex is killing them.</li>
-      <li>The news reveals all the seats that blew up on the plane. Alex figures out that everybody who left the plane had their seats blown up. They all escaped death and it was coming back to get them.</li>
-      <li>They sneak into the morgue/funeral home to see one of their friends' dead bodies and meet William Bludworth. He tells them that death has a design and will not rest until order has been restored when someone avoids their fate.</li>
-      <li>The kids keep trying to escape death and once they think they do, they get killed.</li>
+      <li class="flight180">Alex Browning escapes plane 180 to Paris, France because he saw a vision of the plane exploding and his whole class dying. He screams and cries and leaves the plane w/ a lot of his classmates. The plane does explode and kills the passengers, so the police think Alex bombed the plane.</li>
+      <li class="flight180">Alex is running from the popo and everyone around him is dying. People think that Alex is killing them.</li>
+      <li class="flight180">The news reveals all the seats that blew up on the plane. Alex figures out that everybody who left the plane had their seats blown up. They all escaped death and it was coming back to get them.</li>
+      <li class="flight180">They sneak into the morgue/funeral home to see one of their friends' dead bodies and meet William Bludworth. He tells them that death has a design and will not rest until order has been restored when someone avoids their fate.</li>
+      <li class="flight180">The kids keep trying to escape death and once they think they do, they get killed.</li>
     </ul>
-    <p>It's very important in Final Destination that literally anything can kill somebody. In Final Destination: Bloodlines (2025), literally a penny ended up having an entire building collapse and kill everyone involved.<br>
-    Even when you think youve escaped and have removed anything dangerous from your environment, death will find a way. It will literally give you cancer.<br><br>
-    The movies after FD 2000 follow similar plots: situation, premonition, escape, death tracks you down.<br>
+
+    <center><img src="https://www.slashfilm.com/img/gallery/final-destination-originally-had-a-very-different-ending/intro-1651065935.jpg" width="300" alt="Alex, Clear, & Carter at the end of FD 2000, in Paris before Carter is killed by a billboard."></center>
+
+    <p class="flight180">It's very important in Final Destination that literally anything can kill somebody. In Final Destination: Bloodlines (2025), literally a penny ended up having an entire building collapse and kill everyone involved.<br>
+    Even when you think youve escaped and have removed anything dangerous from your environment, death will find a way. It will literally give you cancer.</p>
+  <br><br>
+
+  <h2 class="subhead">This is kinda lame, they're standalones?</h2>
+  <hr>
+  <p class="flight180">
+    Not really!! The Final Destination movies CAN be viewed independently but they always reference each other and have crossover whether it's characters, concepts, etc!! <br>
+    I watched all of the FD movies in the span of a week and really enjoyed the franchise. I do not like all of the movies, but I am a really big fan of how they connect to each other.</p>
+    <br>
+  <p id="iris">Fun fact!! My dad put the first movie on for me and by the end of the week, we went to see the newest one in theaters!! #FinalDestinationBloodlines</p>
+    <br>
+  <p class="flight180">The movies after FD 2000 follow similar plots: situation, premonition, escape, death tracks you down.<br>
     The interesting part about a lot of these are that they connect to each other in one way or another.<br>
     FD2 (2003) connects by having the final survivor of the previous movie - Clear - help navigate the characters through the journey.<br>
     In FD3 (2006) [my favorite one], meant to work as a standalone, the main character Wendy ends up on a subway cart reading 180 in the mirror, ultimately killing her to Looove train in the credits.<br>
-    The Final Destination (2009) is just straight butt. I hated this movie. It was so nothing burger because it made everything over the top</p>
-  </p>
+    The Final Destination (2009) is just straight butt. I hated this movie. It was so nothing burger because it made everything over the top and I didn't like the characters.<br>
+    FD5 (2011) was really cool because you think it takes place after FD (2000) but its the prequel. The movie ends with the final two survivors on flight 180 when Alex Browning runs off.</p>
   <br><br>
 
-  <h3>Content Element 3</h3>
-  <hr>
-  <p>About Content Element #3</p>
-  <br><br>
-
-  <h3>Content Element 4</h3>
+  <h2 class="subhead">Content Element 4</h2>
   <hr>
   <p>About Content Element #3</p>
   <br><br>
